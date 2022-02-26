@@ -82,7 +82,7 @@ class _MyAppState extends State<MyApp> {
                               decoration: const InputDecoration(
                                 border: OutlineInputBorder(),
                                 label: Text("Email"),
-                                hintText: "Enter your email",
+                                hintText: "Enter your email id",
                               ),
                             ),
                             const SizedBox(
@@ -138,7 +138,7 @@ class _MyAppState extends State<MyApp> {
                                           case 'weak-password':
                                             ScaffoldMessenger.of(context).showSnackBar(
                                               const SnackBar(
-                                                content: Text("Enter at least 6 char long password"),
+                                                content: Text("Enter at least 6 character long password"),
                                                 backgroundColor: Colors.redAccent,
                                               ),
                                             );
